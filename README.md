@@ -16,5 +16,5 @@ n = read(int)
 # Aquí fem un bucle que quan "NO" és més gran que 0 el bucle es farà les vegades de la quantitat que has ficat abans a "N"
 for _ in range(n):         
 
-#      llegir un número real --> dada
+#      Aqui llegira un número real, que es podrà escriure la quantitat de vegades que t'ho bucle
     dada = read(float)
