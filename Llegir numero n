@@ -1,0 +1,8 @@
+'''llegir un número n, seguit d'una seqüència de n números reals.
+Si n no és major que 0, el programa acaba '''
+
+from yogi import read       #Primer importar llibreria
+
+n = read(int)               # llegir un número enter --> n 
+for _ in range(n):          # si n és mes gran que 0 fer n vegades:
+    dada = read(float)      #      llegir un número real --> dada
