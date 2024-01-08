@@ -7,13 +7,13 @@ llegir un número n, seguit d'una seqüència de n números reals. Si n no és m
 ## Ejercicio Python
 
 ```python
-#Primer importar llibreria
+#Lo primer que fem es importar de la llibreria Yogi el "Read"
 from yogi import read
 
-# llegir un número enter --> n 
+# Després col·loquem una variable que sigui "N" i posem "read(int)" que el que fa és, preguntar-te un nombre sencer
 n = read(int)       
 
-# si n és mes gran que 0 fer n vegades:
+# Aquí fem un bucle que quan "NO" és més gran que 0 el bucle es farà les vegades de la quantitat que has ficat abans a "N"
 for _ in range(n):         
 
 #      llegir un número real --> dada
